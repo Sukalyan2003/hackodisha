@@ -25,7 +25,7 @@ const articlesContainer = document.getElementById('articles');
             articleDiv+headline;
             articleDiv+description;
 
-            articlesContainer.appendChild(articleDiv);
+            articlesContainer+articleDiv;
         }
     });
 }
