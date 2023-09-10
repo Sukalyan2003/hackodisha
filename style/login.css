@@ -5,12 +5,28 @@
 }
 body{
     background-color: rgb(209, 204, 204);
+    
 }
 p{
     text-align: center;
 }
 h1{
     text-align: center;
+}
+.contact{
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    flex: auto;
+    text-align: center;
+    display: table;
+}
+.bio{
+    margin: 5%;
+    background-color: lightgray;
+    border-color: brown;
+    border-radius: 5%;
+    display: table-cell;
 }
 nav{
     background-color: black;
