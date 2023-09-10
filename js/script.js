@@ -13,17 +13,17 @@ const articlesContainer = document.getElementById('articles');
             articleDiv.classList.add('article');
 
             const image = document.createElement('img');
-            image.src = article.image;
+            image.src = article.urlToImage;
 
             const headline = document.createElement('h2');
-            headline.textContent = article.headline;
+            headline.textContent = article.title;
 
             const description = document.createElement('p');
             description.textContent = article.description;
 
-            articleDiv+image;
-            articleDiv+headline;
-            articleDiv+description;
+            articleDiv+image.src;
+            articleDiv+headline.textContent;
+            articleDiv+description.textContent;
 
             articlesContainer+articleDiv;
         }
