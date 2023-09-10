@@ -6,6 +6,12 @@
 body{
     background-color: rgb(209, 204, 204);
 }
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
 nav{
     background-color: black;
 }
@@ -28,7 +34,7 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 73px;
+    margin: 20px 0;
     flex-direction: column;
     font-family: 'Baloo Bhai 2', cursive;
 }
