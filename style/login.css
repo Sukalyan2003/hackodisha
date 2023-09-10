@@ -23,11 +23,24 @@ h1{
     display: table;
 }
 .bio{
-    margin: 5%;
+    
     background-color: lightgray;
     border-color: brown;
     border-radius: 5%;
     display: table-cell;
+}
+#articles {
+    margin-top: 20px;
+}
+
+.article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.article img {
+    max-width: 100px;
 }
 nav{
     background-color: black;
