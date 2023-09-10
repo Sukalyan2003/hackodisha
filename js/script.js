@@ -21,9 +21,9 @@ const articlesContainer = document.getElementById('articles');
             const description = document.createElement('p');
             description.textContent = article.description;
 
-            articleDiv.appendChild(image);
-            articleDiv.appendChild(headline);
-            articleDiv.appendChild(description);
+            articleDiv+image;
+            articleDiv+headline;
+            articleDiv+description;
 
             articlesContainer.appendChild(articleDiv);
         }
