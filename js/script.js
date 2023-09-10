@@ -21,11 +21,11 @@ const articlesContainer = document.getElementById('articles');
             const description = document.createElement('p');
             description.textContent = article.description;
 
-            articleDiv+image.src;
-            articleDiv+headline.textContent;
-            articleDiv+description.textContent;
+            articleDiv.appendChild(image.src);
+            articleDiv.appendChild(headline.textContent);
+            articleDiv.appendChild(description.textContent);
 
-            articlesContainer+articleDiv;
+            articlesContainer.appendChild(articleDiv);
         }
     });
 }
