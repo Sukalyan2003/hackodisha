@@ -25,9 +25,6 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
-label{
-    font-size: 20px;
-}
 .search{
     display: flex;
     justify-content: center;
