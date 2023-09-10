@@ -5,7 +5,6 @@ async function fetchNews() {
 
 
 const articlesContainer = document.getElementById('articles');
-    articlesContainer.innerHTML = '';
 
     // Compare headlines and add similar articles
     apiData.forEach(article => {
